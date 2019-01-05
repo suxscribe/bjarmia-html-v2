@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Bjarmia</title>
+
+
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+
+
+	<link rel="stylesheet" type="text/css" href="css/uikit.css">
+	<link rel="stylesheet" href="css/fullpage.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/uikit.js"></script>
+	<script src="js/components/grid.min.js"></script>
+	<script src="js/components/accordion.min.js"></script>
+	<script src="js/fullpage.js"></script>
+	
+	<script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&amp;lang=ru-RU" type="text/javascript"></script>
+
+	<script src="js/custom.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+		<header class="header-side uk-visible-large">
+			<div class="header-logo">
+
+				<a href=""><img src="images/logo_01_side.svg" width="28" alt=""></a>
+
+			</div>
+			<nav class="header-nav">
+				<ul class="menu-main uk-nav" id="menu-main">
+					<li><a data-menuanchor="products" href="index.html#products">Каталог</a></li>
+					<li><a data-menuanchor="info" href="index.html#info">Ценности</a></li>
+					<li><a data-menuanchor="delivery" href="index.html#delivery">Доставка</a></li>
+					<li><a data-menuanchor="contacts" href="index.html#contacts">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="header-socials">
+				<a href="" class="header-social uk-icon-instagram"></a>
+				<a href="" class="header-social uk-icon-facebook"></a>
+			</div>
+		</header>
+		<header class="header-small uk-hidden-large">
+			<!-- <div class="header-logo">
+				<a href=""><img src="images/logo_small.svg" width="164" alt=""></a>
+			</div> -->
+			<div class="navbar-toggle">
+				<a href="#menu" class=" z-navbar-toggle uk-padding-remove"><span></span></a>
+			</div>
+		</header>
+		<main id="fullpage">
+			<div class="main-logo">
+				<img src="images/logo_b.svg" width="85" alt="">
+			</div>
+
+			<div class="frontpage-letters">
+				<img src="images/frontpage-letters.svg" alt="">
+			</div>
+
+			<div class="section section_main fp-auto-height-responsive" data-anchor="main">
+				<div class="frontpage-content">
+					<div class="frontpage-right">
+						<div class="frontpage-right-image">
+							<img src="images/frontpage-right.jpg" alt="">
+						</div>
+						<div class="frontpage-right-text">
+							<p>Вдохновившись суровым спокойствием и&nbsp;величественными пейзажами северной природы, мы&nbsp;создали средства на&nbsp;основе экстрактов северных растений, наполненных энергией арктического солнца в&nbsp;полярный день.</p>
+						</div>
+					</div>
+					
+					<div class="frontpage-title"><span><span>BJARMIA —</span></span><span><span>ОСОЗНАННАЯ</span></span><span><span>КРАСОТА</span></span></div>
+					<a class="frontpage-catalog-link"><span>Каталог</span></a>
+				</div>
+			</div>
+			<div class="section fp-auto-height-responsive" data-anchor="products" >
+				<div class="products-content">
+					<div class="info-title-small uk-hidden-large title-vertical"><span>Каталог</span></div>
+
+					<div class="frontpage-products-list uk-grid uk-grid-width-medium-1-2 uk-grid-width-large-1-4 uk-grid-collapse">
+						<div>
+							<div class="product product_frontpage">
+								<div class="product-bg">
+									<img src="images/product-arctic-balm-bg.jpg" alt="">
+								</div>
+								<div class="product-image">
+									<img src="images/product-arctic-balm.png" alt="">
+								</div>
+								<div class="product-title">ARCTIC GEL</div>
+								<div class="product-subtitle">ГЕЛЬ ДЛЯ ОБЛАСТИ ВОКРУГ ГЛАЗ</div>
+								
+
+								<form class="cart" method="post" enctype="multipart/form-data">
+									<div class="product-addtocart">
+										<div class="product-quantity">
+											<div class="product-quantity-button icon-plus" onclick="iconPlus(this);">
+											</div>
+											<div class="product-quantity-input">
+												<div class="quantity">
+													<input type="number" id="quantity_5c0a2c772376a" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Кол-во" size="4" pattern="[0-9]*" inputmode="numeric">
+												</div>
+											</div>
+											<div class="product-quantity-button icon-minus" onclick="iconMinus(this);">
+											</div>
+										</div>
+										<div class="product-addtocart-button">
+											<button type="submit" name="add-to-cart" value="9" class="single_add_to_cart_button button alt uk-button"><span>Добавить</span> в корзину			
+											</button>
+										</div>
+									</div>
+								</form>
+
+								<div class="product-price">
+									<span class="price"><span class="woocommerce-Price-amount amount">1275<span class="woocommerce-Price-currencySymbol"><span class="rur">р<span>уб.</span></span></span></span></span>
+								</div>
+								<a href="" class="uk-position-cover"></a>
+							</div>
+						</div>
+						<div>
+							<div class="product product_frontpage">
+								<div class="product-bg">
+									<img src="images/product-arctic-balm-bg.jpg" alt="">
+								</div>
+								<div class="product-image">
+									<img src="images/product-arctic-balm.png" alt="">
+								</div>
+								<div class="product-title">ARCTIC GEL</div>
+								<div class="product-subtitle">ГЕЛЬ ДЛЯ ОБЛАСТИ ВОКРУГ ГЛАЗ</div>
+								
+
+								<form class="cart" method="post" enctype="multipart/form-data">
+									<div class="product-addtocart">
+										<div class="product-quantity">
+											<div class="product-quantity-button icon-plus" onclick="iconPlus(this);">
+											</div>
+											<div class="product-quantity-input">
+												<div class="quantity">
+													<input type="number" id="quantity_5c0a2c772376a" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Кол-во" size="4" pattern="[0-9]*" inputmode="numeric">
+												</div>
+											</div>
+											<div class="product-quantity-button icon-minus" onclick="iconMinus(this);">
+											</div>
+										</div>
+										<div class="product-addtocart-button">
+											<button type="submit" name="add-to-cart" value="9" class="single_add_to_cart_button button alt uk-button"><span>Добавить</span> в корзину			
+											</button>
+										</div>
+									</div>
+								</form>
+
+								<div class="product-price">
+									<span class="price"><span class="woocommerce-Price-amount amount">1275<span class="woocommerce-Price-currencySymbol"><span class="rur">р<span>уб.</span></span></span></span></span>
+								</div>
+								<a href="" class="uk-position-cover"></a>
+							</div>
+						</div>
+						<div>
+							<div class="product product_frontpage">
+								<div class="product-bg">
+									<img src="images/product-arctic-balm-bg.jpg" alt="">
+								</div>
+								<div class="product-image">
+									<img src="images/product-arctic-balm.png" alt="">
+								</div>
+								<div class="product-title">ARCTIC GEL</div>
+								<div class="product-subtitle">ГЕЛЬ ДЛЯ ОБЛАСТИ ВОКРУГ ГЛАЗ</div>
+								
+
+								<form class="cart" method="post" enctype="multipart/form-data">
+									<div class="product-addtocart">
+										<div class="product-quantity">
+											<div class="product-quantity-button icon-plus" onclick="iconPlus(this);">
+											</div>
+											<div class="product-quantity-input">
+												<div class="quantity">
+													<input type="number" id="quantity_5c0a2c772376a" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Кол-во" size="4" pattern="[0-9]*" inputmode="numeric">
+												</div>
+											</div>
+											<div class="product-quantity-button icon-minus" onclick="iconMinus(this);">
+											</div>
+										</div>
+										<div class="product-addtocart-button">
+											<button type="submit" name="add-to-cart" value="9" class="single_add_to_cart_button button alt uk-button"><span>Добавить</span> в корзину			
+											</button>
+										</div>
+									</div>
+								</form>
+
+								<div class="product-price">
+									<span class="price"><span class="woocommerce-Price-amount amount">1275<span class="woocommerce-Price-currencySymbol"><span class="rur">р<span>уб.</span></span></span></span></span>
+								</div>
+								<a href="" class="uk-position-cover"></a>
+							</div>
+						</div>
+						<div>
+							<div class="product product_frontpage">
+								<div class="product-bg">
+									<img src="images/product-arctic-balm-bg.jpg" alt="">
+								</div>
+								<div class="product-image">
+									<img src="images/product-arctic-balm.png" alt="">
+								</div>
+								<div class="product-title">ARCTIC GEL</div>
+								<div class="product-subtitle">ГЕЛЬ ДЛЯ ОБЛАСТИ ВОКРУГ ГЛАЗ</div>
+								
+
+								<form class="cart" method="post" enctype="multipart/form-data">
+									<div class="product-addtocart">
+										<div class="product-quantity">
+											<div class="product-quantity-button icon-plus" onclick="iconPlus(this);">
+											</div>
+											<div class="product-quantity-input">
+												<div class="quantity">
+													<input type="number" id="quantity_5c0a2c772376a" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Кол-во" size="4" pattern="[0-9]*" inputmode="numeric">
+												</div>
+											</div>
+											<div class="product-quantity-button icon-minus" onclick="iconMinus(this);">
+											</div>
+										</div>
+										<div class="product-addtocart-button">
+											<button type="submit" name="add-to-cart" value="9" class="single_add_to_cart_button button alt uk-button"><span>Добавить</span> в корзину			
+											</button>
+										</div>
+									</div>
+								</form>
+
+								<div class="product-price">
+									<span class="price"><span class="woocommerce-Price-amount amount">1275<span class="woocommerce-Price-currencySymbol"><span class="rur">р<span>уб.</span></span></span></span></span>
+								</div>
+								<a href="" class="uk-position-cover"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section fp-auto-height-responsive" data-anchor="info">
+				<div class="info-content fullpage-content">
+					<div class="info-images sly-v">
+						<ul class="info-slide-image " id="info-images">
+							<li class="sly-v__item active">
+								<img src="images/slide-00.jpg" alt="">
+							</li>
+							
+							<li class="sly-v__item">
+								<img src="images/slide-01.jpg" alt="">
+							</li>
+							
+							<li class="sly-v__item">
+								<img src="images/slide-02.jpg" alt="">
+							</li>
+							
+							<li class="sly-v__item">
+								<img src="images/slide-03.jpg" alt="">
+							</li>
+							
+						</ul>
+					</div>
+					<div class="info-content-wrap">
+						<div class="info-content-container">
+							<div class="info-navigation">
+								<div class="info-nav-arrow info-nav-prev screen_3__gallies__nav_left" ></div> <!-- data-uk-switcher-item="previous" -->
+								<div class="info-nav-current screen_3__gallies__nums_cur">1</div>
+								<div class="info-nav-total screen_3__gallies__nums_all">4</div>
+								<div class="info-nav-arrow info-nav-next screen_3__gallies__nav_right" ></div> <!-- data-uk-switcher-item="next" -->
+							</div>
+
+							<div class="info-slides sly-h" >
+								<ul class="info-slides-list" id="info-slides">
+									<li class="info-slide sly-h__item active">
+										<div class="info-slide-content">
+											<div class="info-slide-heading title-1">КОСМЕТИКА BJARMIA ИМЕЕТ ПОЛНОСТЬЮ НАТУРАЛЬНЫЙ СОСТАВ</div>
+											<div class="info-slide-text ">
+												<div class="uk-grid uk-grid-width-1-2">
+													<div>Средства BJARMIA не содержат продуктов животного происхождения и не тестируются на животных. Все детали нашей упаковки — картон, алюминиевая туба и колпачок — подлежат вторичной переработке. Мы намеренно отказались от пластиковой тубы, чтобы снизить негативное воздействие на окружающую среду.</div>
+													<div>Косметика не содержит синтетических красителей и отдушек, не даёт сильных вкусов и ароматов — зато исключительно благотворно воздействует на организм. Некоторые компоненты нашей косметики сертифицированы или валидированы по международному экостандарту COSMOS. Сейчас наша продукция проходит сертификацию по российскому экостандарту Bio.Rus. 
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="info-slide sly-h__item">
+										<div class="info-slide-content">
+											<div class="info-slide-heading title-1">ПРИНЦИПИАЛЬНО НЕ ИСПОЛЬЗУЕМ ВАЗЕЛИН И ДРУГИЕ НЕФТЕПРОДУКТЫ </div>
+											<div class="info-slide-text ">
+												<div class="uk-grid uk-grid-width-xlarge-1-2">
+													<div>Секрет северной Кореи — это невероятная жизнестойкость, стрессоустойчивость и безупречная защита клеток. Чтобы донести всё это до вашей кожи, мы создаём деликатные и эффективные формулы. Высокая концентрация активных компонентов в косметике BJARMIA позволяет достигать заметных результатов. Мы сотрудничаем с ведущими мировыми поставщиками сырья, но также поддерживаем и локальных производителей. </div>
+													<div> В наших средствах дополняют друг друга растительные препараты из кедра, лиственницы и диких ягод и современные хай-тек компоненты, такие как гиалуроновая кислота в микросферах из касторового масла. Мы принципиально не используем вазелин и другие продукты нефтепереработки. Плотные защитные текстуры средств создаются только за счёт натуральных масел и экстрактов.</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="info-slide info-slide_3 sly-h__item">
+										<div class="info-slide-content">
+											<div class="info-slide-heading title-1">BJARMIA — НЕЗАВИСИМЫЙ МОЛОДОЙ БРЕНД, СВОБОДОЛЮБИВЫЙ, КАК СЕВЕРНЫЙ ВЕТЕР</div>
+											<div class="info-slide-text ">
+												<div class="">
+													<div>Тем не менее, мы стойко прошли все формальности и выстроили полностью легальный, прозрачный бизнес, соответствующий всем требованиям законодательства. Мы предусмотрели всё, чтобы вам было комфортно иметь с нами дело, включая онлайн-кассу и интеграцию с платёжными системами.</div>
+													
+												</div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="info-slide info-slide_1 sly-h__item">
+										<div class="info-slide-content">
+											<div class="info-slide-heading title-1">ПРОДУКТЫ BJARMIA ГЕНДЕРНО НЕЙТРАЛЬНЫ — ТО ЕСТЬ, ПОДХОДЯТ ВСЕМ ЛЮДЯМ БЕЗ ИСКЛЮЧЕНИЯ</div>
+											<div class="info-slide-text ">
+												<div class="">
+													<div>Идеи уважения и равноправия между людьми отразились и в нашем подходе  к разработке косметики. Продукты BJARMIA гендерно нейтральны — то есть, подходят всем людям без исключения. Мы не видим смысла в том, чтобы разливать одно и то же средство в «женскую» и «мужскую» упаковку. Наши продукты эффективно работают на разных типах кожи независимо от гендера человека. Материалы нашей упаковки – ценное вторсырье.  Адрес ближайшего пункта приема вторсырья — <a href="http://recyclemap.ru">recyclemap.ru</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									
+									
+									
+								</ul>
+							</div>
+							<ul class="info-nav-menu sly_navi" > <!-- data-uk-switcher="{connect:'#info-slides,#info-pics'}" --> <!-- , animation: 'uk-animation-fade' -->
+								<li class="sly_navi_item active"><a href="#">ЭКОЛОГИЧНОСТЬ И ЭТИЧНОСТЬ</a></li>
+								<li class="sly_navi_item"><a href="#">КАЧЕСТВО</a></li>
+								<li class="sly_navi_item"><a href="#">ПРОЗРАЧНОСТЬ</a></li>
+								<li class="sly_navi_item"><a href="#">СОЦИАЛЬНАЯ ОТВЕТСТВЕННОСТЬ</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="info-content-small">
+					<div class="info-title-small uk-hidden-large title-vertical"><span>ЦЕННОСТИ</span></div>
+					<div class="info-content-accordion uk-accordion" data-uk-accordion="{showfirst:false,collapse: false}">
+
+						<h3 class="uk-accordion-title">ЭКОЛОГИЧНОСТЬ И ЭТИЧНОСТЬ</h3>
+						<div class="uk-accordion-content">
+							<div class="info-accordion-title">КОСМЕТИКА BJARMIA ИМЕЕТ ПОЛНОСТЬЮ НАТУРАЛЬНЫЙ СОСТАВ</div>
+							<div class="info-accordion-text">
+								<div>Средства BJARMIA не содержат продуктов животного происхождения и не тестируются на животных. Все детали нашей упаковки — картон, алюминиевая туба и колпачок — подлежат вторичной переработке. Мы намеренно отказались от пластиковой тубы, чтобы снизить негативное воздействие на окружающую среду.</div>
+								<div>Косметика не содержит синтетических красителей и отдушек, не даёт сильных вкусов и ароматов — зато исключительно благотворно воздействует на организм. Некоторые компоненты нашей косметики сертифицированы или валидированы по международному экостандарту COSMOS. Сейчас наша продукция проходит сертификацию по российскому экостандарту Bio.Rus. </div>
+							</div>
+						</div>
+
+						<h3 class="uk-accordion-title">КАЧЕСТВО</h3>
+						<div class="uk-accordion-content">
+							<div class="info-accordion-title">ПРИНЦИПИАЛЬНО НЕ ИСПОЛЬЗУЕМ ВАЗЕЛИН И ДРУГИЕ НЕФТЕПРОДУКТЫ</div>
+							<div class="info-accordion-text">
+								<div>Секрет северной Кореи — это невероятная жизнестойкость, стрессоустойчивость и безупречная защита клеток. Чтобы донести всё это до вашей кожи, мы создаём деликатные и эффективные формулы. Высокая концентрация активных компонентов в косметике BJARMIA позволяет достигать заметных результатов. Мы сотрудничаем с ведущими мировыми поставщиками сырья, но также поддерживаем и локальных производителей. </div>
+								<div> В наших средствах дополняют друг друга растительные препараты из кедра, лиственницы и диких ягод и современные хай-тек компоненты, такие как гиалуроновая кислота в микросферах из касторового масла. Мы принципиально не используем вазелин и другие продукты нефтепереработки. Плотные защитные текстуры средств создаются только за счёт натуральных масел и экстрактов.</div>
+							</div>
+						</div>
+
+						<h3 class="uk-accordion-title">ПРОЗРАЧНОСТЬ</h3>
+						<div class="uk-accordion-content">
+							<div class="info-accordion-title">BJARMIA — НЕЗАВИСИМЫЙ МОЛОДОЙ БРЕНД, СВОБОДОЛЮБИВЫЙ, КАК СЕВЕРНЫЙ ВЕТЕР</div>
+							<div class="info-accordion-text">Тем не менее, мы стойко прошли все формальности и выстроили полностью легальный, прозрачный бизнес, соответствующий всем требованиям законодательства. Мы предусмотрели всё, чтобы вам было комфортно иметь с нами дело, включая онлайн-кассу и интеграцию с платёжными системами.
+							</div>
+						</div>
+
+						<h3 class="uk-accordion-title">СОЦИАЛЬНАЯ ОТВЕТСТВЕННОСТЬ</h3>
+						<div class="uk-accordion-content">
+							<div class="info-accordion-title">ПРОДУКТЫ BJARMIA ГЕНДЕРНО НЕЙТРАЛЬНЫ — ТО ЕСТЬ, ПОДХОДЯТ ВСЕМ ЛЮДЯМ БЕЗ ИСКЛЮЧЕНИЯ</div>
+							<div class="info-accordion-text">Идеи уважения и равноправия между людьми отразились и в нашем подходе к разработке косметики. Продукты BJARMIA гендерно нейтральны — то есть, подходят всем людям без исключения. Мы не видим смысла в том, чтобы разливать одно и то же средство в «женскую» и «мужскую» упаковку. Наши продукты эффективно работают на разных типах кожи независимо от гендера человека. Материалы нашей упаковки – ценное вторсырье. Адрес ближайшего пункта приема вторсырья — <a href="http://recyclemap.ru">recyclemap.ru</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="section fp-auto-height-responsive" data-anchor="delivery">
+				<div class="delivery-content fullpage-content">
+					<div class="delivery-title-vertical title-vertical uk-hidden-large ">
+						<span>ДОСТАВКА</span>
+					</div>
+					<div class="delivery-content-top">
+						
+						<div class="delivery-title title-1 ">СПОСОБЫ ДОСТАВКИ</div>
+						<div class="delivery-image">
+							<img src="images/delivery-image.jpg" alt="">
+						</div>
+					</div>
+					<div class="delivery-content-container">
+						<div class="uk-flex uk-flex-column">
+							<div class="uk-grid" data-uk-grid-match data-uk-grid-margin>
+								<div class="uk-width-large-1-3 uk-width-1-1">
+									<div class="title-2">
+										САМОВЫВОЗ
+									</div>
+									<div class="delivery-text uk-visible-large">&nbsp;
+									</div>
+									<div class="title-3">МОСКВА, УЛ. ВАВИЛОВА 57А</div>
+									<div class="delivery-text">
+										Для согласования даты и времени для самовывоза вы можете нам позвонить +7 (916) 915-68-67
+										или написать в директ Instagram
+									</div>
+								</div>
+								<div class="uk-width-large-2-3 uk-width-1-1">
+									<div class="title-2">
+										КУРЬЕРСКАЯ  СЛУЖБА «СДЕК»
+									</div>
+									<div class="delivery-text">
+										Рассчитать стоимость доставки вы сможете при размещении заказа
+									</div>
+									<div class="uk-grid uk-grid-width-large-1-2" data-uk-grid-margin>
+										<div>
+											<div class="title-3">ИЗ ПУНКТОВ ВЫДАЧИ </div>
+											<div class="delivery-text">Если вы хотите забрать заказ из офиса компании СДЭК, по готовности вашего заказа на указанный вами мобильный телефон придет смс-сообщение с адресом и временем работы офиса СДЭК.</div>
+										</div>
+										<div>
+											<div class="title-3">ДОСТАВКА КУРЬЕРОМ</div>
+											<div class="delivery-text">Если вы хотите курьерскую доставку на ваш адрес, то курьер позвонит вам перед доставкой.
+											Максимальное время ожидания курьера с момента прибытия — 15 минут.</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div> <!-- ДОСТАВКА -->
+
+			<div class="section fp-auto-height-responsive" data-anchor="contacts">
+				<div class="contacts-content fullpage-content">
+
+					<div class="contacts-content-container">
+						<div class="contacts-content">
+							
+							<div class="contacts-title title-1 uk-visible-large">КОНТАКТЫ</div>
+							<div class="contacts-title-small uk-hidden-large title-vertical"><span>КОНТАКТЫ</span></div>
+							<div class="title-2">
+								МОСКВА, УЛ. ВАВИЛОВА 57А
+							</div>
+							<div class="contacts-text">
+								Часы работы: Пн - вс. с 10:00 до 22:00 по московскому времени
+							</div>
+							<div class="contacts-phone title-3"><a href="tel:+79169156867">+7 (916) 915-68-67</a></div>
+							<div class="contacts-links">
+								<a href="mailto:hello@bjarmia.ru">hello@bjarmia.ru</a>
+								<a href="">FACEBOOK</a>
+								<a href="">INSTAGRAM</a>
+							</div>
+						</div>
+					</div>
+					<div class="contacts-map">
+						<div class="contacts-map-holder">
+							<div id="frontpage-map">
+
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div> <!-- КОНТАКТЫ -->
+
+
+		</main>
+
+
+
+	</div>
+
+
+	<div id="cart-circle" class="cart-link">
+		<a class="" href="#">
+		</a>
+		<span class="icon-shopping-bag"></span>
+		<span class="cart-link-total">4</span>
+	</div>
+
+	<!--MODAL-->
+	<div id="menu" class="uk-modal">
+		<div class="uk-modal-dialog uk-modal-dialog-blank">
+
+
+				<div class="menu-modal-menu">
+					<ul class="uk-nav">
+						<li class=""><a href="index.html">Главная</a></li>
+						<li class="">
+							<a href="index.html#products">Каталог</a>
+							<ul class="menu-modal-products-nav">
+								<li class=""><a href="#">ARCTIC SCRUB</a></li>
+								<li class=""><a href="#">ARCTIC BALM</a></li>
+								<li class=""><a href="#">ARCTIC GEL</a></li>
+								<li class=""><a href="#">ARCTIC MIST</a></li>
+							</ul>
+						</li>
+						<li><a data-menuanchor="info" href="index.html#info">Ценности</a></li>
+						<li><a data-menuanchor="delivery" href="index.html#delivery">Доставка</a></li>
+						<li><a data-menuanchor="contacts" href="index.html#contacts">Контакты</a></li>
+					</ul>
+				</div>
+
+
+		</div>
+	</div>
+
+</body>
+</html>
